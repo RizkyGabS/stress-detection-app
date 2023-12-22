@@ -9,14 +9,14 @@ This folder encompasses all aspects related to cloud computing, including server
 ├── /database     
 └── /config       
 
-2. Machine Learning (ML):
+3. Machine Learning (ML):
 This folder contains machine learning models and related scripts. The basic folder structure might look like this:
 /ML
 ├── /models        
 ├── /data          
 └── /scripts 
 
-3. Mobile Development (MD):
+5. Mobile Development (MD):
 This folder is dedicated to mobile application development. The basic folder structure might look like this:
 /MD
 ├── /src           
