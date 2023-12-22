@@ -6,7 +6,6 @@ B. Folder Structure
 This folder encompasses all aspects related to cloud computing, including serverless functions, cloud databases, or any cloud-related components. The basic folder structure might look like this:
 
 /CC
-
 ├── /functions     
 ├── /database     
 └── /config       
@@ -15,7 +14,6 @@ This folder encompasses all aspects related to cloud computing, including server
 This folder contains machine learning models and related scripts. The basic folder structure might look like this:
 
 /ML
-
 ├── /models        
 ├── /data          
 └── /scripts 
