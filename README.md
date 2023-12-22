@@ -9,14 +9,14 @@ This folder encompasses all aspects related to cloud computing, including server
 ├── /database      # Cloud database configurations
 └── /config        # Cloud-related configuration files    
 
-3. Machine Learning (ML):
+2. Machine Learning (ML):
 This folder contains machine learning models and related scripts. The basic folder structure might look like this:
 /ML
 ├── /models        # Machine learning models
 ├── /data          # Datasets and pre-processing scripts
 └── /scripts       # Scripts for model training and evaluation
 
-5. Mobile Development (MD):
+3. Mobile Development (MD):
 This folder is dedicated to mobile application development. The basic folder structure might look like this:
 /MD
 ├── /src           # Source code for the mobile app
@@ -33,6 +33,6 @@ To use the stress detection application, follow these steps:
 - Open a terminal and navigate to the application directory.
 - Run the application with the command npm start or python app.py, depending on the technology used.
 
-4. Stress Analysis:
+3. Stress Analysis:
 - Enter the required data.
 - The application will provide stress analysis results.
