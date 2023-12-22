@@ -1,4 +1,5 @@
 A. Stress Detection App
+
 This application is a solution for detecting stress levels through data analysis. It incorporates cloud computing (CC), machine learning (ML), and mobile development (MD) to provide a comprehensive stress analysis experience.
 
 B. Folder Structure
