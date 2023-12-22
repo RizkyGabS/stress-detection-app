@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoginWithAnimation" parent="Theme.Material3.DayNight">
+
+    </style>
+    <style name="ErrorAppearance">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Theme.LoginWithAnimation" parent="Base.Theme.LoginWithAnimation" />
+</resources>

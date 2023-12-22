@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Stress Detection App</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Aplikasi yang membantu anda untuk mengetahui tingkat stress melalui gejala - gejala stress yang anda alami.</string>
+    <string name="title_welcome_page">Selamat datang di Stress Detection App</string>
+    <string name="title_signup_page">Kamu belum memiliki akun?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Login terlebih dahulu sebelum memulai aplikasi</string>
+    <string name="message_signup_page">Masukkan datamu untuk membuat akun terlebih dahulu</string>
+    <string name="title_login_page">Ayo kita cek tingkat stressmu dan kita lihat Tips dan Tricknya!</string>
+    <string name="name">Nama</string>
+    <string name="quest1">1. Dalam sepekan terakhir ini, seberapa sering kamu merasa kecewa karena suatu hal yang terjadi secara tiba-tiba?</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="quest3">3. Dalam sepekan terakhir, seberapa sering kamu merasa cemas dan stress?</string>
+    <string name="quest4">4. Dalam sepekan terakhir, seberapa sering kamu merasa percaya diri dengan kemampuanmu untuk menangani masalah pribadimu?</string>
+    <string name="quest2">2. Dalam sepekan terakhir, seberapa sering kamu merasa tidak dapat mengontrol hal penting dalam hidupmu?</string>
+    <string name="quest5">5. Dalam sepekan terakhir, seberapa sering kamu merasa bahwa sesuatu terjadi sesuai dengan rencanamu?</string>
+    <string name="quest6">6. Dalam sepekan terakhir, seberapa sering kamu merasa bahwa kamu tidak dapat mengatasi semua hal yang kamu lakukan?</string>
+    <string name="quest7">7. Dalam sepekan terakhir, seberapa sering kamu dapat mengontrol rasa iri di hidupmu?</string>
+    <string name="quest8">8. Dalam sepekan terakhir, seberapa sering kamu merasa bahwa dirimu sendiri adalah prioritas utama dalam hidupmu?</string>
+    <string name="quest9">9. Dalam sepekan terakhir, seberapa sering kamu merasa marah karena suatu hal yang terjadi diluar kendalimu?</string>
+    <string name="quest10">10. Dalam sepekan terakhir, seberapa sering kamu merasa banyak sekali kesulitan yang terjadi sehingga kamu sulit untuk mengatasinya?</string>
+
+
+    <string name="insturct">Isilah Survey dibawah dengan jawaban 0 (Tidak pernah), 1 (Hampir tidak pernah), 2 (Kadang-kadang), 3 (Cukup sering), 4 (Sangat sering)
+</string>
+    <string name="insturct2">Isilah Survey dibawah dengan ubah skor untuk pertanyaan 4,5,7, dan 8. Ubah skor menjadi 0 = 4, 1 = 3, 2 = 2, 3 = 1, 4 = 0.
+
+</string>
+    <string name="logout">Keluar</string>
+    <string name="menu_1">logout</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Gallery</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="upload">Upload</string>
+    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="atau">atau</string>
+    <string name="tvname">Hi Anonim</string>
+    <string name="tvlastupdate">Baru saja ditambahkan</string>
+    <string name="tvtitle">Selamat Datang di Stress Detection App</string>
+    <string name="tips_dan_trick">Tips dan Trick</string>
+    <string name="light">light</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_upload">Upload</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tingkat_stress">Tingkat Stress</string>
+    <string name="tingkat_stressNormal">Tingkat Stress Normal</string>
+    <string name="tingkat_stressMenengah">Tingkat Stress Menengah</string>
+    <string name="tingkat_stressTinggi">Tingkat Stress Tinggi</string>
+    <string name="tips1">Buat jadwal harian yang teratur dan atur prioritas agar tidak terlalu terbebani.
+</string>
+    <string name="tips2">Latihan pernapasan dalam dan perlahan untuk meredakan ketegangan.</string>
+    <string name="tips3">Rutin berolahraga seperti berjalan kaki, berlari, atau yoga dapat membantu mengurangi tingkat stres.</string>
+    <string name="tips4">Pilih kegiatan yang membuat Anda bahagia dan atur waktu untuk menikmatinya.</string>
+    <string name="tips5">Tangani masalah segera sebelum menjadi lebih rumit.
+</string>
+    <string name="tips6">Cobalah teknik relaksasi seperti meditasi atau biofeedback.</string>
+    <string name="tips7">Berbicara dengan orang terpercaya atau profesional kesehatan mental.</string>
+    <string name="tips8">Identifikasi penyebab stres dan pikirkan cara untuk mengatasinya.</string>
+    <string name="tips9">Sediakan waktu untuk berlibur dan menjauh dari sumber stres.
+</string>
+    <string name="tips10">Pastikan Anda mendapatkan tidur yang cukup untuk mendukung kesehatan mental.</string>
+    <string name="tips11">Identifikasi tugas yang dapat ditunda atau delegasikan kepada orang lain..</string>
+    <string name="tips12">Pertimbangkan untuk mencari bantuan dari seorang konselor atau terapis.</string>
+    <string name="facial_emotions">Facial Emotions</string>
+    <string name="analyze">Analyze</string>
+    <string name="konsul">Layanan Konseling</string>
+    <string name="konsul2">Layanan Darurat</string>
+    <string name="konsul3">Gunakan fasilitas hotlines atau layanan darurat jika mengalami stress berat atau keinginan untuk bunuh diri.</string>
+    <string name="konsul4">Layanan Emergency Mental : 119 ekstensi 8
+LISA Suicide Prevention Helpline : +62 811 3855 472</string>
+</resources>
