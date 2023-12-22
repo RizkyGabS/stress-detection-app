@@ -5,6 +5,7 @@ const session = require('express-session');
 const bcrypt = require('bcrypt');
 const path = require('path');
 const cors = require('cors');
+const multer = require('multer');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -34,6 +35,10 @@ const datastore = new Datastore();
 
 // User entity kind
 const KIND = 'User';
+
+// Setup Multer for file upload
+const storage = multer.memoryStorage();
+const upload = multer({ storage: storage });
 
 // Route default diarahkan ke halaman login
 app.get('/', (req, res) => {
@@ -144,51 +149,65 @@ app.post('/logout', (req, res) => {
     }
   });
 
-// Endpoint untuk menambahkan history baru
-app.post('/addhistory', async (req, res) => {
-    const { result } = req.body;
-    const userId = req.session.userId; // Dapatkan userId dari session
-  
-    try {
-      // Buat kunci entitas untuk history baru dalam entitas User
+// Endpoint untuk menambahkan history baru dengan input gambar, nama, dan email
+app.post('/addhistory', upload.single('image'), async (req, res) => {
+  const { facialEmotion, stressLevel } = req.body;
+  const userId = req.session.userId; // Dapatkan userId dari session
+  const { originalname } = req.file; // File gambar yang diunggah
+
+  try {
+      // Handling the image data as per your requirement
+      // For example, you can save the image to Cloud Storage or process it as needed
+      
+      // Create a new history entity
       const historyKey = datastore.key(['User', userId, 'History']);
-  
-      // Buat entri baru untuk History
+
+      // Create a new history entry
       const newHistory = {
-        key: historyKey, // Menentukan kunci entitas
-        data: [
-          {
-            name: 'parent',
-            value: datastore.key(['User', userId]),
-            excludeFromIndexes: true,
-          },
-          {
-            name: 'userId',
-            value: userId,
-            excludeFromIndexes: true,
-          },
-          {
-            name: 'result',
-            value: result,
-            excludeFromIndexes: true,
-          },
-          {
-            name: 'createdAt',
-            value: new Date(),
-            excludeFromIndexes: true,
-          },
-        ],
+          key: historyKey,
+          data: [
+              {
+                  name: 'parent',
+                  value: datastore.key(['User', userId]),
+                  excludeFromIndexes: true,
+              },
+              {
+                  name: 'userId',
+                  value: userId,
+                  excludeFromIndexes: true,
+              },
+              {
+                  name: 'photoUrl',
+                  value: originalname, // Example: storing the original image name
+                  excludeFromIndexes: true,
+              },
+              {
+                  name: 'facialEmotion',
+                  value: facialEmotion,
+                  excludeFromIndexes: true,
+              },
+              {
+                  name: 'stressLevel',
+                  value: stressLevel,
+                  excludeFromIndexes: true,
+              },
+              {
+                  name: 'createdAt',
+                  value: new Date(),
+                  excludeFromIndexes: true,
+              },
+          ],
       };
-  
-      // Simpan entri baru ke Datastore
+
+      // Save the new entry to Datastore
       await datastore.save(newHistory);
-  
+
       res.status(201).json({ message: 'Successfully added to history', history: newHistory });
-    } catch (error) {
+  } catch (error) {
       console.error('Error adding new history:', error);
       return res.status(500).json({ message: 'An error occurred while adding new history' });
-    }
-  });
+  }
+});
 
 // Endpoint untuk mendapatkan semua histories
 app.get('/histories', async (req, res) => {
