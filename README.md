@@ -4,20 +4,25 @@ This application is a solution for detecting stress levels through data analysis
 B. Folder Structure
 1. Cloud Computing (CC):
 This folder encompasses all aspects related to cloud computing, including serverless functions, cloud databases, or any cloud-related components. The basic folder structure might look like this:
+
 /CC
+
 ├── /functions     
 ├── /database     
 └── /config       
 
 3. Machine Learning (ML):
 This folder contains machine learning models and related scripts. The basic folder structure might look like this:
+
 /ML
+
 ├── /models        
 ├── /data          
 └── /scripts 
 
 5. Mobile Development (MD):
 This folder is dedicated to mobile application development. The basic folder structure might look like this:
+
 /MD
 ├── /src           
 ├── /assets        
