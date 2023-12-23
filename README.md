@@ -37,7 +37,7 @@
     Finding Peace in Every Pulse: Your Stress, Our Solution
     <br />
     <br />
-    <a href="https://drive.google.com/file/d/1MBICFlJVc2MIIY5mB554IptibbiKtJJo/view?usp=sharing">View Demo</a>
+    <a href="https://drive.google.com/file/d/1MBICFlJVc2MIIY5mB554IptibbiKtJJo/view?usp=sharing">Download APK</a>
     ·
     <a href="https://www.figma.com/proto/8O0YQnMY6APoohlG3Vl1YW/Capstone?type=design&node-id=10-47&t=ZUDeuHhm9xqFPTbH-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design">Prototype</a>
   </p>
