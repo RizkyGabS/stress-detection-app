@@ -98,7 +98,7 @@ The stress level analyzed based on  our mood and the summary of the survey. With
 
  - Machine Learning
       - Python
-      - Google Colabs
+      - Google Colab
       - OpenCV
       - Tensorflow
       - PyTorch
